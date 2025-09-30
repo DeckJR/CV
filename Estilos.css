@@ -1,0 +1,33 @@
+/* Requerimientos de estilos*/
+
+/* Estilo en línea en algún elemento (p)*/
+h2 { color: rgb(0, 0, 70); }
+
+/*Selector de etiqueta*/
+p {color: black}
+
+/*Selector de clase*/
+.destacado { font-weight: bold; }
+
+/*Selector de id*/
+#titulo { text-align: center; }
+div p { font-style: italic; }
+ul > li { padding: 0.5em 0; }
+.caja {
+margin: 20px; /* px */
+padding: 2em; /* em */
+border: 5px solid black;
+font-size: 1.1rem; /* rem */
+width: 50%; /* % */
+background-color: lightgreen;
+box-sizing: border-box;
+}
+h1 { color: darkblue; font-size: 2rem; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid black; padding: 10px; text-align: center; }
+tbody tr:nth-child(odd) { background-color: #e8f4fc; }
+td:hover { background-color: yellow; cursor: pointer; }
+.color-nombre { background-color: red; color: white; padding: 0.3em; }
+.color-rgb { background-color: rgb(0,128,255); color: #fff; padding: 0.3em; }
+.color-hex { background-color: #ff5733; color: black; padding: 0.3em; }
+.nota { font-size: 0.9rem; color: gray; }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Currículum Dereck Jiménez Rodríguez</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <style>
+    header { text-align: left; margin-bottom: 1rem; }
+    #titulo { font-size: 2rem; color: darkblue; }
+    .perfil div p { font-style: normal; }
+    ul > li { margin-bottom: 0.3em; }
+    tbody tr:hover {cursor: pointer; }
+    table{
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse; /*Une bordes */
+        }  
+        
+        th, td {
+            border: 1px solid black;
+            padding:  10px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: lightblue;
+        }
+
+        tfoot {
+            background-color: lightgray;
+        }
+
+        /* Selector de hijo directo */
+        tbody > tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        /* Selector nth-child */
+        tbody tr:nth-child(odd) {
+            background-color: #e8f4fc;
+        }
+
+        /* Selectores de interacción */
+        td:hover {
+            background-color: yellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Currículum Dereck Jiménez Rodríguez</h1>
+        <h2 style="text-decoration: underline;">Descripción profesional</h2>
+        <p>Desarrollador web en formación <em>con gran habilidad de aprendizaje</em> con interés en <strong>interfaces responsivas.</strong>
+            <br><small>(Disponiblilidad para trabajar en temporada).</small></p>
+        <hr>
+    </header>
+    <section id="contacto" class="perfil">
+        <h3>Información de Contacto</h3>
+        <p>Correo: <i>dereckalonsoj.r@gmail.com</i><br>
+        Tel: (506) 6222-5992 <br>
+        <ins>Disponible en horario laboral (8:00-17:00)</ins><br>
+        </p>
+        <p>Nota: abierto para prácticas profesionales <sub>(al finalizar estudios)</sub> con subvención económica <sup>(arriendo)</sup></p>
+    </section>
+    <hr>
+    <section class="perfil">
+        <h3>Frases</h3>
+        <p><q>Aprende como si fueras a vivir para siempre.</q><cite>— Autor: Mahatma Gandhi,</cite></p>
+        <blockquote>"La educación es el arma más poderosa que puedes usar para cambiar el mundo"</blockquote>
+    </section>
+    <hr>
+    <section id="experiencia" class="perfil">
+    <h3>Formación</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Título</th>
+                    <th>Detalles</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>                
+                <tr>
+                    <td>2019<br>-<br>2023</td>
+                    <td>Maurilio Soto Alfaro</td>
+                    <td>Bachiller en educación media</td>
+                    <td>Calificación sobresaliente</td>
+                    <td>Cursado</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td rowspan="2">UTN</td>
+                    <td>Bachiller universitario <br> Ingeniería del software</td>
+                    <td>Participación en torneos de programación</td>
+                    <td>Cursando</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>Bachiller universitario <br> Ingeniería del software</td>
+                    <td>Participación en torneos de programación</td>
+                    <td>Cursando</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Proyecto destacado</td>
+                    <td colspan="3">Creación de vehículo a control remoto con camara mediante arduino</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="5">Experencia laboral en otras áreas.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>       
+    </body>
+</html>
